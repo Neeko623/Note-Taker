@@ -1,22 +1,23 @@
-//Dependencies
+// Dependencies
 const express = require('express');
-const path = require('path');
 
-//set up express app
-const app = express();
 const PORT = process.env.PORT || 3001;
+// Sets up the Express App
+const app = express();
 
-// Sets up the Express app to handle data parsing
+//Accesses public file mainly for proper CSS loading
+app.use(express.static(__dirname + '/public'));
+app.use(express.static('./'));
+
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static('public'));
 
-//routers
+//Require the Routes.js files in order to communicate when to generate api routes and html files
+require("./apiRoutes")(app);
+require("./htmlRoutes")(app);
 
-require("/Users/neekotang/Bootcamp/Note-Taker/routes/apiRoutes.js")(app);
-require("/Users/neekotang/Bootcamp/Note-Taker/routes/htmlRoutes.js")(app);
 
-//starts server to begin listening
+// Starts the server to begin listening
 app.listen(PORT, function () {
     console.log("App listening on PORT " + PORT);
 });
