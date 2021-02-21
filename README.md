@@ -18,10 +18,9 @@ Then in browser, search localhost:3001
 - DELETE /api/notes/:id should receive a query parameter containing the id of a note to delete. 
 
 # Screenshot
-
-![screenshot](/Users/neekotang/Bootcamp/Note-Taker/screenshots/Note Taker.png)
-![screenshot](/Users/neekotang/Bootcamp/Note-Taker/screenshots/Note Taker (1).png)
-![screenshot](/Users/neekotang/Bootcamp/Note-Taker/screenshots/Note Taker (2).png)
+![Screenshot2](screenshots/a3.png)
+![Screenshot3](screenshots/a1.png)
+![Screenshot3](screenshots/a2.png)
 
 # Question
 
