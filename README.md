@@ -5,10 +5,11 @@ Note Taker that can be used to write and save notes. This application will use a
 
 How to install :
 
-Note Taker APP is deployed to Heroku here: https://neeko2021notetaker.herokuapp.com/
-If choosing to use from terminal, open terminal and run(make sure you have install npm i express).
-node server.js 
-Then in browser, search localhost:3001
+- Note Taker APP is deployed to Heroku here: https://neeko2021notetaker.herokuapp.com/
+- If choosing to use from terminal, open terminal and run
+  (make sure you have install npm i express).
+- node server.js 
+-Then in browser, search localhost:3001
 
 # Note Taker Information
 - GET /notes should return the notes.html file.
