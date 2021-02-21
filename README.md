@@ -11,17 +11,17 @@ node server.js
 Then in browser, search localhost:3001
 
 # Note Taker Information
-GET /notes should return the notes.html file.
-GET * should return the index.html file.
-GET /api/notes should read the db.json file and return all saved notes as JSON.
-POST /api/notes should receive a new note to save on the request body, add it to the db.json file, and then return the new note to the client.
-DELETE /api/notes/:id should receive a query parameter containing the id of a note to delete. 
+- GET /notes should return the notes.html file.
+- GET * should return the index.html file.
+- GET /api/notes should read the db.json file and return all saved notes as JSON.
+- POST /api/notes should receive a new note to save on the request body, add it to the db.json file,  and then return the new note to the client.
+- DELETE /api/notes/:id should receive a query parameter containing the id of a note to delete. 
 
 # Screenshot
 
-![screenshot]("screenshots/Note Taker.png")
-![screenshot]("screenshots/Note Taker (1).png")
-![screenshot]("screenshots/Note Taker (2).png")
+![screenshot](/Users/neekotang/Bootcamp/Note-Taker/screenshots/Note Taker.png)
+![screenshot](/Users/neekotang/Bootcamp/Note-Taker/screenshots/Note Taker (1).png)
+![screenshot](/Users/neekotang/Bootcamp/Note-Taker/screenshots/Note Taker (2).png)
 
 # Question
 
